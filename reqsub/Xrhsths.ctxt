@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Xrhsths
+comment1.params=
+comment1.target=Xrhsths()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ \u03C7\u03C1\u03B7\u03C3\u03C4\u03B7\u03C2\r\n
+comment2.params=onomaa\ phonenumbers\ add\ cod
+comment2.target=Xrhsths(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ register()
+comment4.params=x
+comment4.target=boolean\ validuser(int)
+comment5.params=x
+comment5.target=boolean\ hasbankacc(int)
+comment6.params=x
+comment6.target=void\ createbankacc(int)
+comment7.params=x\ y
+comment7.target=void\ claimthis(int,\ int)
+comment8.params=
+comment8.target=int\ login()
+comment9.params=x
+comment9.target=void\ viewrequesterprofile(int)
+numComments=10
