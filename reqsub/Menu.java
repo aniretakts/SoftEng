@@ -20,9 +20,12 @@ public class Menu
           k=100;
          }
          else if(z==2){ 
+          if(loyo.xrhstes.size()!=0){   
           w=loyo.login();
           if(w!=-1)
             k=100;
+         }
+         else{System.out.println("δεν υπάρχουν χρήστες στο σύστημα");}
          }
          else z=0;
          while(k!=5){
@@ -40,8 +43,12 @@ public class Menu
              if (ff!=-1)
               yolo.requestclaim(w,ff);
            }
-          else if(k==3)
-          yolo.pendinglistrequestee(0); 
+          else if(k==3){
+           if(loyo.xrhstes.get(w).pendingreq.size()!=0)   
+            yolo.pendinglistrequestee(0);
+            else
+             System.out.println("δεν έχετε αναλάβει requests");
+           } 
           else if(k==4)
           yolo.pendinglistrequester(w);
         }

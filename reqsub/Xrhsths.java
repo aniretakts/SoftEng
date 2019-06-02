@@ -1,10 +1,3 @@
-
-/**
- * Write a description of class χρηστης here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 import java.util.*;
 public class Xrhsths
 {
@@ -42,6 +35,7 @@ public class Xrhsths
        System.out.println("παρακαλώ εισάγετε τον κωδικό σας");
        int cod= sc.nextInt();
        xrhstes.add(new Xrhsths(on,hls,add,cod));
+       sc.nextLine();
     }
     public boolean validuser(int x)
     {
@@ -65,7 +59,6 @@ public class Xrhsths
         xrhstes.get(x).pendingreq.add(y);
     }
     public int login(){
-         sc.nextLine();
          System.out.println("παρακαλώ εισάγετε τον όνομα σας");
          String on= sc.nextLine();
          int g=1;
